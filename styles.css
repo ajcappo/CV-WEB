@@ -1,0 +1,762 @@
+body{
+    box-sizing: border-box;
+   margin:0;
+   padding:0;
+position: relative;
+width: auto;
+height: 100vh;
+margin-left: 0;
+margin-right: 0;
+
+
+background: #414141;
+font-family: 'Bebas Neue', cursive;
+}
+
+.header{
+    margin-left: 160px;
+}
+.verde{
+    position: absolute;
+    width: 936.35px;
+    height:75%;
+    left: -77.5px;
+    top: -22px;
+    
+    mix-blend-mode: normal;
+}
+
+.cont_flechas{
+    width: 40vw;
+
+}
+
+.flechas{
+    
+position: relative;
+
+}
+
+.logo{
+    display: flex;
+    width: 80%;
+    height: 350px;
+    align-items: center;
+    margin: 0;
+    margin-left:10vw;
+    padding: 0;
+    justify-content: center;
+
+}
+
+ .h1{
+     width: auto;
+     text-align: center;
+position: relative;
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 60pt;
+line-height:43pt;
+
+
+color: #FFFFFF;
+
+
+
+
+}
+
+.navbar_580{
+    display: none;
+
+}
+
+.botonotes{
+    position: relative;
+    width: 30vw;
+    display: flex;
+    margin: 0;
+    margin-left: 40px;
+    padding: 0;
+    height:350px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.musico{
+display: flex;    
+position: relative;
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 4vw;
+line-height:4vw;
+
+color: #FFFFFF;
+
+transform: rotate(-3deg);
+}
+
+.musico:hover{
+    top:-10px;
+color: #95AED5;
+text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.25);
+transition: .5s ease all;
+}
+
+.geologo{
+    
+position: relative;
+
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 4vw;
+line-height:4vw;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+transform: rotate(3deg);
+
+}
+
+
+.geologo:hover{
+    top:-10px;
+    color: #76CB4E;
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.25);
+    transition: .5s ease all;
+
+    }
+
+.programador{
+    
+position: relative;
+
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 4vw;
+line-height:4vw;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+transform: rotate(-1.5deg);
+
+}
+
+.programador:hover{
+    top:-10px;
+    color: #CB744E;
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.25);
+    transition: .5s ease all;
+
+    }
+
+
+
+
+
+.black{
+position: absolute;
+width: 960px;
+height: auto;
+left: 50%;
+transform: translateX(-50%);
+background: #131313;
+border-radius: 20px ;
+z-index: -1;
+/* scroll-behavior: auto; */
+padding-bottom: 40px;
+
+}
+
+.h2_black{
+    position: relative;
+    display:inline;
+    width: 40%;
+    text-align: right;
+    float: right;
+    height: 72px;
+    margin-top: 20px;
+    margin-right: 40px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Carter One', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29.2881px;
+    line-height: 122.5%;
+    color: #7BBEBE;
+    }
+
+.p_black{
+    
+    width: 80%;
+    position:relative ;
+    left:15%;
+    font-weight: normal;
+    font-size: 3.8rem;
+    line-height: 79.5%;
+    text-align: right;
+    color: #D8D8D8;
+    margin-bottom:10px;
+    margin-top: 170px;
+    size-adjust: 100%;
+    scroll-behavior: auto;
+    
+
+
+
+}
+
+
+.lateral{
+    position:sticky;
+    width: 100%;
+    height: auto;
+    background-color: rgb(80, 79, 79);
+    margin:0;
+    padding: 0;
+    z-index: 2;
+
+}
+
+.div_lateral{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    /* position: relative;
+    margin-top:200px; */
+    margin:0;
+    padding: 0;
+
+}
+
+.lilateral{
+    list-style: none;
+    align-items: center;
+    text-align: right;
+    font-size: 1.5rem;
+    margin:0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.lilateral h3{
+    
+    color: #7BBEBE;
+    margin:0px;
+    margin-top:10px;
+    font-weight: 200;
+    margin:0;
+    padding: 0;
+
+
+}
+.lilateral p{
+    color: #fff;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin:0;
+    padding: 0;
+
+}
+
+.redes{
+    width:300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lilateral img{
+    width: 48px;
+    height: 48px;
+    margin:0;
+    padding: 0;
+
+}
+
+.lilateral img:hover{
+    transform: scale(1.2)
+}
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+    /* inicio @media 750 a 960px */
+
+    @media all and (min-width:750px) and (max-width:960px){
+    
+        body, html{
+        box-sizing: border-box;
+        width: 600px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+        background: #414141;
+        font-family: 'Bebas Neue', cursive;
+        }
+        
+        .header{
+            margin-left: 0px;
+        }    
+        
+
+.verde{
+    position: absolute;
+    width: auto;
+    height:auto;
+    left: -177.5px;
+    top: -122px;
+    
+    mix-blend-mode: normal;
+
+}
+
+
+.flechas{
+    display:none;
+}
+
+.logo{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    margin: 0;
+    margin:0;
+    padding: 0;
+    justify-content: center;
+
+}
+
+ .h1{
+     position: relative;
+     text-align: center;
+     margin:0;
+     margin: 160px;
+     font-size: 50pt;
+     line-height: 36pt
+
+}
+
+.navbar_580{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+    width: 600px;
+    height: 45px;;
+    border-radius: 5px;
+    text-align: center;
+
+    
+
+}
+
+.botonotes{
+    display:none;
+}
+
+
+.musico2{
+font-size: 25pt;
+color: #FFFFFF;
+
+
+
+}
+
+.musico2:hover{
+color: #95AED5;
+transform: rotate(-2deg);
+
+}
+
+.geologo2{
+    
+    font-size: 25pt;
+    color: #FFFFFF;
+
+
+
+
+}
+
+
+.geologo2:hover{
+    top:25px;
+
+    color: #76CB4E;
+    transform: rotate(2deg);
+
+    }
+
+.programador2{
+    
+    font-size: 25pt;
+    color: #FFFFFF;
+
+
+}
+
+.programador2:hover{
+    color: #CB744E;
+    transform: rotate(-2deg);
+    }
+
+
+
+
+
+.black{
+    margin-top:100px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #131313;
+    border-radius: 20px ;
+    z-index: -1;
+    scroll-behavior: auto;
+    padding-bottom: 40px;
+
+}
+        
+    
+    
+
+.h2_black{
+    position: relative;
+    
+    }
+
+.p_black{
+    
+   
+    width: 80%;
+    height:auto;
+    position:relative ;
+    font-weight: normal;
+    font-size: 3.3rem;
+    line-height: 79.5%;
+    text-align: right;
+    color: #D8D8D8;
+    margin-bottom:10px;
+    margin-top: 170px;
+    left:15%;
+
+
+
+
+}
+
+
+.lateral{
+    position:sticky;
+    width: 100%;
+    height: auto;
+    background-color: rgb(80, 79, 79);
+    margin:0;
+    padding: 0;
+    z-index: 2;
+    border-radius:5px;
+    margin-top: 5px;;
+
+}
+
+
+
+.lilateral{
+
+    font-size: 1rem;
+       
+
+}
+
+
+  
+
+
+.lilateral p{
+  
+    font-size: 0.9rem;
+    
+
+}
+
+
+
+
+    }
+
+
+    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+    /* inicio @media <749px */
+
+    @media all and (max-width:749px){
+    
+        body, html{
+            box-sizing: border-box;
+            width: 375px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            
+            
+            background: #414141;
+            font-family: 'Bebas Neue', cursive;
+            }
+            
+            .header{
+                margin-left: 0px;
+            }
+            
+    
+    .verde{display:none;    
+    }
+    
+    
+    .flechas{
+        display:none;
+    }
+    
+    .logo{
+        background-color: #7BBEBE;
+        display: flex;
+        width: 100%;
+        height: 150px;
+        align-items: center;
+        margin:0;
+        margin-top:5px;
+        padding: 0;
+        justify-content: center;
+        border-radius: 5px;
+    
+    }
+    
+     .h1{
+        position: relative;
+        text-align: center;
+        margin:0;
+        margin: 160px;
+        font-size: 40pt;
+        line-height: 29pt
+      
+    }
+    
+    .navbar_580{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(32, 32, 32);
+        width: 375px;
+        height: 45px;;
+        margin-top:5px;
+        border-radius: 5px;
+        text-align: center;
+    
+        
+    
+    }
+    
+    .botonotes{
+        display:none;
+    }
+    .musico2{
+    font-size: 20pt;
+    color: #FFFFFF;
+    
+    
+    
+    }
+    
+    .musico2:hover{
+    color: #95AED5;
+    transform: rotate(-2deg);
+    
+    }
+    
+    .geologo2{
+        
+        font-size: 20pt;
+    font-size: 20pt;
+        color: #FFFFFF;
+    
+    
+    
+    
+    }
+    
+    
+    .geologo2:hover{
+        font-size: 20pt;
+
+        color: #76CB4E;
+        transform: rotate(2deg);
+    
+        }
+    
+    .programador2{
+        
+        font-size: 20pt;
+        color: #FFFFFF;
+    
+    
+    }
+    
+    .programador2:hover{
+        color: #CB744E;
+        transform: rotate(-2deg);
+        }
+    
+    
+    
+    
+    
+    .black{
+        position: absolute;
+        width: 375px;
+        height: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #131313;
+        border-radius: 5px ;
+        z-index: -1;
+        scroll-behavior: auto;
+        padding-bottom: 20px;
+        margin-bottom:10px;
+        margin-top: 5px;
+
+        
+        
+        }
+        
+    
+    .h2_black{
+        position: relative;
+        font-size: 1rem;
+
+        }
+    
+    .p_black{
+        
+       
+        width: 80%;
+        position:relative ;
+        left:15%;
+        font-weight: normal;
+        font-size: 3rem;
+        line-height: 79.5%;
+        text-align: right;
+        color: #D8D8D8;
+        margin-bottom:10px;
+        margin-top: 170px;
+        size-adjust: 100%;
+        scroll-behavior: auto;
+    
+    
+    
+    
+    }
+    
+
+    
+    .lateral{
+        position:sticky;
+        width: 100%;
+        height: auto;
+        background-color: rgb(80, 79, 79);
+        margin:0;
+        padding: 0;
+        z-index: 2;
+        border-radius:5px;
+        margin-top: 5px;;
+    
+    }
+    
+    
+    
+
+.div_lateral{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    /* position: relative;
+    margin-top:200px; */
+    margin:0;
+    padding: 0;
+
+}
+
+.lilateral{
+
+    list-style: none;
+    align-items: center;
+    text-align: right;
+    font-size: 0.7rem;
+    margin:0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.lilateral h3{
+    
+    color: #7BBEBE;
+    margin:0px;
+    margin-top:10px;
+    font-size: 0.8rem;
+    font-weight: 200;
+    margin:0;
+    padding: 0;
+
+
+}
+.lilateral p{
+    color: #fff;
+    margin: 0;
+    font-size: 0.6rem;
+    font-weight: 100;
+    margin:0;
+    padding: 0;
+
+}
+
+.redes{
+    width:200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+    
+    
+    
+    }
+
+    
